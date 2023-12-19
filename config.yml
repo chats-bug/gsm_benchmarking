@@ -1,0 +1,12 @@
+model_config:
+  hf_model_id: "microsoft/Orca-2-7b"
+  hf_tokenizer_id: "microsoft/Orca-2-7b"
+
+dataset_config:
+  name: "gsm"
+  path: "gsm_eval_set.csv"
+  type: "csv"
+
+batch_size: 4
+max_new_tokens: 1500
+output_path: "results.csv"
